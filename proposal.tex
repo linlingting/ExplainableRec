@@ -1,0 +1,48 @@
+\documentclass{article}
+
+\begin{document}
+\title{Explainable Recommender System}
+\maketitle
+\section{Introduction}
+
+Many recommender systems functioned as black boxes, providing no transparency into the working of the recommendation process, nor offering any additional information to accompany the recommendations beyond the recommendations themselves.
+
+\textbf{Definition of Explanation:} Explanations can benefit recommender systems on a number of aspects. Thus, based on their goals, we can distinguish between different explanations~\cite{Tintarev2011Designing}. 
+
+\textbf{Transparency explanation} explains how the system works. Transparency is usually evaluated in terms of its effect on actual and perceived understanding of how the system works, e.g. in ~\cite{Cramer2008effects} during a period of three weeks, 82 subjects are drawn to participate in a procedure of questionnaire, interview and follow-up questionnaire to give a quantitative  analysis of transparency and acceptance. 
+
+\textbf{Scrutability explanation} allows users to tell the system it is wrong. The evaluations include metrics such as task correctness, information exposure (i.e. if users could express an understanding of what information was used to make recommendations for them)
+
+\textbf{Trust explanation} increases users’ confidence in the system. Questionnaires can be used to determine the degree of trust a user places in a system. Implicit measures such as loyalty are also commonly used. 
+
+\textbf{Effectiveness explanation} helps users make better decisions. Effectiveness can be calculated as perceived effectiveness, i.e. ``this explanation helps me determine how well I will like this movie'', or the absence of a difference between the liking of the recommended item prior to, and after consumption, or cross-system analysis based on how well the recommendations suit to personal tastes. Effectiveness could be also measured globally, i.e. with a marketing metric. 
+
+\textbf{Persuasiveness explanation} convince users to try or buy. Persuasiveness can be evaluated by user studies (i.e. questionnaire or 7-point Likert rating) of different explanation interfaces, or in different forms of "conversion rates", e.g. ratings before and after explanation, how much likely users actually buy items compared to users in a system without an explanation facility. It is worth noting that in~\cite{Yoo2011Creating}, persuasiveness is closely related to social factors. A more credible source is more persuasive. A source whose intent is to persuade is perceived as less trustworthy. Computers that convey similar personality types are more persuasive. It is thus important to integrate social cues to create more persuasive systems.
+
+\textbf{Efficiency explanation} helps users make decisions faster. Efficiency is often evaluated in conversational recommender systems. In systems with which users rarely interact, we could evaluate efficiency by the number of activations of repair actions. 
+
+\textbf{Satisfaction explanation} increases the ease of use or enjoyment. When measuring satisfaction, one can directly ask users to finish a questionnaire. However, it is important to differentiate between satisfaction with the recommendation process and the recommended products. 
+
+
+
+
+
+
+\section{Related Work}
+\subsection{Explanation Sources}
+One major source of the explanations comes from collaborative filtering. For example, the typical "people also bought" scheme in Amazon and most other commercial systems. A number of previous research focuses on extracting structured information from social tags~\cite{Sharma2013Do} and opinionated reviews~\cite{Zhang2014Explicit,He2015Trirank}. 
+
+\subsection{Explanation Styles}
+The most common explanation is expressed in a template, i.e. ``customers who bought this item also bought ''. It is also possible to place the extracted opinion in each aspect to form a structured overview, i.e. ``we also recommend the following products because they are cheaper and lighter but have lower processor speed." Some systems use content similarity to organize the explanation. For example, Pandora highlights musical properties such as tempo and tonality and offers explanation such as ``based on what you've told us so far, we're playing this track because it features a leisurely tempo and major tonality."
+
+A number of work adopt visualization techniques, e.g. the ranking of different factors to provide the explanation. This category also includes visualizing associations via a knowledge graph. 
+
+\subsection{Explanation and Recommendation}
+The underlying algorithm may influence the types of explanations that can be constructed. Collaborative filtering based explanations are typical examples. However, it is also possible that the explanations selected by the system developer do not reflect the underlying algorithm, especially when the recommendation algorithms are computationally complex. One possible solution is to embed the textual representation with the recommendation algorithm. For example, ~\cite{McAuley2013Hidden} aligns user/item latent factors in topical distributions. Topic modeling has been extensively used in this area~\cite{Zhang2014Explicit,He2015Trirank} due to its flexibility in combining with factor models. It is also appealing to integrate other information, such as social trust~\cite{Ren2017Social}.
+
+Another type of models that can naturally generate explanations is a set of decision rules derived from a decision tree~\cite{Wang2018Tem}. Trees are special cases of a more general graph. 
+
+
+\bibliographystyle{abbrv}
+\bibliography{reference}
+\end{document}

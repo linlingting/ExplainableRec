@@ -1,0 +1,50 @@
+\begin{thebibliography}{1}
+
+\bibitem{Cramer2008effects}
+H.~Cramer, V.~Evers, S.~Ramlal, M.~Van~Someren, L.~Rutledge, N.~Stash,
+  L.~Aroyo, and B.~Wielinga.
+\newblock The effects of transparency on trust in and acceptance of a
+  content-based art recommender.
+\newblock {\em User Modeling and User-Adapted Interaction}, 18(5):455, 2008.
+
+\bibitem{He2015Trirank}
+X.~He, T.~Chen, M.-Y. Kan, and X.~Chen.
+\newblock Trirank: Review-aware explainable recommendation by modeling aspects.
+\newblock In {\em Proceedings of the 24th ACM International on Conference on
+  Information and Knowledge Management}, pages 1661--1670. ACM, 2015.
+
+\bibitem{McAuley2013Hidden}
+J.~McAuley and J.~Leskovec.
+\newblock Hidden factors and hidden topics: understanding rating dimensions
+  with review text.
+\newblock In {\em Proceedings of the 7th ACM conference on Recommender
+  systems}, pages 165--172. ACM, 2013.
+
+\bibitem{Sharma2013Do}
+A.~Sharma and D.~Cosley.
+\newblock Do social explanations work?: studying and modeling the effects of
+  social explanations in recommender systems.
+\newblock In {\em Proceedings of the 22nd international conference on World
+  Wide Web}, pages 1133--1144. ACM, 2013.
+
+\bibitem{Tintarev2011Designing}
+N.~Tintarev and J.~Masthoff.
+\newblock Designing and evaluating explanations for recommender systems.
+\newblock In {\em Recommender systems handbook}, pages 479--510. Springer,
+  2011.
+
+\bibitem{Yoo2011Creating}
+K.-H. Yoo and U.~Gretzel.
+\newblock Creating more credible and persuasive recommender systems: The
+  influence of source characteristics on recommender system evaluations.
+\newblock In {\em Recommender systems handbook}, pages 455--477. Springer,
+  2011.
+
+\bibitem{Zhang2014Explicit}
+Y.~Zhang, G.~Lai, M.~Zhang, Y.~Zhang, Y.~Liu, and S.~Ma.
+\newblock Explicit factor models for explainable recommendation based on
+  phrase-level sentiment analysis.
+\newblock In {\em Proceedings of the 37th international ACM SIGIR conference on
+  Research \& development in information retrieval}, pages 83--92. ACM, 2014.
+
+\end{thebibliography}
